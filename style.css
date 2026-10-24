@@ -1,0 +1,45 @@
+:root {
+  --cream: #f7ead9;
+  --paper: #fbf3e8;
+  --brown: #4a3226;
+  --brown-soft: #8a6a58;
+  --line: #e6d3c0;
+  --coral: #df7559;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--brown);
+  font-family: 'Nunito', ui-rounded, system-ui, sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+}
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+header img { width: 72px; height: 72px; border-radius: 18px; box-shadow: 0 4px 12px rgba(74, 50, 38, 0.15); }
+header h1 { margin: 0; font-size: 26px; font-weight: 800; line-height: 1.2; }
+header p { margin: 0; color: var(--brown-soft); }
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+}
+h2 { font-size: 19px; font-weight: 800; margin: 0 0 8px; }
+h3 { font-size: 16px; font-weight: 800; margin: 16px 0 4px; }
+p, li { margin: 0 0 8px; }
+a { color: var(--coral); }
+.email { font-size: 18px; font-weight: 800; }
+footer { text-align: center; color: var(--brown-soft); font-size: 14px; margin-top: 24px; }
+footer a { margin: 0 8px; }
